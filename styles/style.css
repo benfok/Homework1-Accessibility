@@ -20,7 +20,7 @@ header h1 {
 }
 
 /* Specific class for the letter seo in the company logo */
-.seo {
+#seo {
     color: #d9dcd6;
 }
 
@@ -57,7 +57,7 @@ p {
 }
 
 /* Styling for main hero image to keep it full width. I added the image into the HTML rather than as a background fill within CSS. This ensures the website more closely matches the proof and allows for alt tag on the image*/
-.hero {
+#hero {
     width: 100%;
     margin-bottom: 25px;
 }
