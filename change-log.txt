@@ -1,0 +1,16 @@
+Replaced div=header with header tag
+Replaced div for navigation with nav tags, removing <ul> and <li> tags
+Replaced div hero with figure tags. 
+Converted hero image from a background image in css to an img pulled in HTML in order to add alt description and match the original proof
+Add in <main> tags (semantic HTML)
+Convert primary content divs to a section and article tags
+Convert right sidebar to aside tags with articles contained
+Convert div footer to footer tags
+Update all img tags to pull from my file structure 
+Add alt text to all images
+Added id tag for first content block to fix broken nav link
+Added title for webpage
+Fixed HTML indentation
+Commented out the footer in HTML and CSS
+Consolidated redundant CSS classes to reduce the overall amount of contained
+Rearranged CSS file
