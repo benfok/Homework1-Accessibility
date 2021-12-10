@@ -6,6 +6,7 @@ We have been hired by a marketing agency and asked to refactor some existing cod
 
 ## Project Work
 My live website can be found [here](https://benfok.github.io/homework1-accessibility/)
+
 My file repository in GitHub is [here](https://github.com/benfok/homework1-accessibility/)
 
 ## User Story
@@ -29,7 +30,7 @@ It's done when the site has a concise, descriptive title
 ## Proof
 The end result should resemble the image below:
 
-![Mock up of the Horiseon webpage](.example/01-html-css-git-homework-demo.png)
+![Mock up of the Horiseon webpage](./example/01-html-css-git-homework-demo.png)
 
 ## Actions
 I considered the following during this project:
