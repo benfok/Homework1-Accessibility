@@ -18,10 +18,10 @@ Here is a screenshot of my finished page. Change log is below:
 I adjusted the following within the files and file structure:
 
 - Replaced div=header with header tag
-- Replaced div for navigation with nav tags, removing <ul> and <li> tags
+- Replaced div for navigation with nav tags, removing ul and li tags
 - Replaced div hero with figure tags. 
 - Converted hero image from a background image in css to an img pulled in HTML in order to add alt description and match the original proof
-- Added in <main> tags for semantic HTML
+- Added in main tags for semantic HTML
 - Converted primary content divs to a section and article tags. I did some research on this and appreciate that this could have instead been 3 sections. Each section does stand alone though with a header, image and information so article tags felt appropriate.
 - Convert right sidebar to aside tags with articles contained
 - Convert div footer to footer tags
