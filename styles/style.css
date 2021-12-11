@@ -34,7 +34,7 @@ nav {
 }
 
 /* Styling for main navigation menu. Remove list icons, display in line with spacing */
-.main-nav li {
+nav li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
