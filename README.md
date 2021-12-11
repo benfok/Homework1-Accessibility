@@ -9,35 +9,28 @@ My live website can be found [here](https://benfok.github.io/homework1-accessibi
 
 My file repository in GitHub is [here](https://github.com/benfok/homework1-accessibility/)
 
-## User Story
+## Screenshot
+Here is a screenshot of my finished page. Change log is below:
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
+![Screenshot of my finished webpage](./example/screen-capture1-finished-work.png)
 
-## Acceptance Criteria 
+## Change Log
+I adjusted the following within the files and file structure:
 
-```
-It's done when the codebase uses semantic HTML elements
-It's done when the HMTL elements follow a logical structure independent of styling and positioning
-It's done when the images and icons contain accessible alt attributes
-It's done when the heading attributes fall in sequential order
-It's done when the site has a concise, descriptive title
-```
-
-## Proof
-The end result should resemble the image below:
-
-![Mock up of the Horiseon webpage](./example/01-html-css-git-homework-demo.png)
-
-## Actions
-I considered the following during this project:
-
-- Aiming to replace all <div> tags within the codespace with more descriptive, semantic HTML tags
-- Cleaning up the code through tag flow and indentation
-- Ensuring all the code is solid and meets accessibility best practices (links working, alt text etc.)
-- Consolidating the css code; removing redundant css classes and codes
-- Ensuring the css code follows the HTML page structure
-- I included a change-log.txt file with a chronological list of the changes I made
+- Replaced div=header with header tag
+- Replaced div for navigation with nav tags, removing <ul> and <li> tags
+- Replaced div hero with figure tags. 
+- Converted hero image from a background image in css to an img pulled in HTML in order to add alt description and match the original proof
+- Added in <main> tags for semantic HTML
+- Converted primary content divs to a section and article tags. I did some research on this and appreciate that this could have instead been 3 sections. Each section does stand alone though with a header, image and information so article tags felt appropriate.
+- Convert right sidebar to aside tags with articles contained
+- Convert div footer to footer tags
+- Update all img tags to pull from my file structure 
+- Add alt text to all images
+- Added id tag for first content block to fix broken nav link
+- Added title for webpage
+- Fixed HTML indentation
+- Commented out the footer in HTML and CSS because it did not exist within the proof image. I left the code for easy reactivation if needed.
+- Consolidated redundant CSS classes to reduce the overall amount of contained
+- Rearranged CSS file
+- Added comments to the index.html file
