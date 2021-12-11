@@ -14,3 +14,4 @@ Fixed HTML indentation
 Commented out the footer in HTML and CSS
 Consolidated redundant CSS classes to reduce the overall amount of contained
 Rearranged CSS file
+Added comments to the index.html file
